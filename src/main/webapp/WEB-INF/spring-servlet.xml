@@ -23,15 +23,15 @@
     
 <bean id="ds" class="org.springframework.jdbc.datasource.DriverManagerDataSource">    
 <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>    
-<property name="url" value="jdbc:mysql://database-1.cdeq7f13ibhj.us-east-2.rds.amazonaws.com:3306/socapp"></property>    
+<property name="url" value="jdbc:mysql://*****.us-east-2.rds.amazonaws.com:3306/socapp"></property>    
 <!-- <property name="url" value="jdbc:mysql://localhost:3306/socapp"></property>     -->
 <!-- <property name="url" value="jdbc:mysql://mysqldocker:3306/socapp"></property>     -->
 <!-- <property name="username" value="root"></property>     -->
 <!-- <property name="password" value="root"></property>     -->
-<!-- <property name="username" value="ozgurse"></property>     -->
-<!-- <property name="password" value="12345"></property>     -->
+<!-- <property name="username" value="*****"></property>     -->
+<!-- <property name="password" value="*****"></property>     -->
 <property name="username" value="admin"></property>    
-<property name="password" value="abcde200"></property>    
+<property name="password" value="*****"></property>    
 </bean>    
     
 <bean id="jt" class="org.springframework.jdbc.core.JdbcTemplate">    
