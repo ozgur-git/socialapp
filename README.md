@@ -20,11 +20,16 @@ AWS ECS (Electronic Container Service) with AWS RDS as the database service.**
 - JavaScript
 - HTML
 - CSS
+- AWS
 
 # Setup
-Deploy it to Apache Tomcat by following commands
+To deploy it to Apache Tomcat by following commands
 - mvn clean install
 - mvn tomcat7:deploy
+
+You will need a separate MySQL Server.
+
+To deploy to the AWS cloud as Docker containers, please follow the guidelines https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
 
 
 
