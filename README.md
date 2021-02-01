@@ -1,9 +1,17 @@
 # General Info
-This is a basic social networking web project which is presented in the book Learning PHP, MySQL, JavaScript, 
-CSS & HTML5, Third Edition, by O’Reilly originally written in PHP, MySQL and JavaScript/HTML/CSS on.
-a (L/X)AMP platform. 
-I rewrote the PHP code in Java using Spring MVC framework and deployed in Apache Tomcat. Also, AWS
-RDS and Docker support is added. Please find the source code in my Github repository:.ozgur-git/socialapp
+It is a Twitter-like basic social networking web project presented in the book Learning PHP, MySQL, 
+JavaScript, CSS & HTML5, Third Edition, by O’Reilly, originally written in vanilla PHP/JavaScript
+with HTML/CSS on an LAMP platform.
+Users can sign up with their  own usernames and passwords, login, create profiles, upload profile photos, follow  
+and unfollow other users, send private messages to friends or public messages.
+All usernames, passwords, public/private and profile messages are stored in MySQL database tables.
+
+**I rewrote the PHP code in Java using the Spring MVC framework and tested successfully using the localhost 
+Tomcat Server, and then reconfigured deployment with separate Docker containers as the Tomcat Server in one 
+container and the MySQL Server in another container instead of the LAMP platform. 
+The application is then deployed successfully to AWS cloud such that the Tomcat container is deployed using ner Service)/EC2 configuration
+AWS ECS (Electronic Container Service) with AWS RDS as the database service.**
+
 # Technology
 - Java
 - Spring MVC
