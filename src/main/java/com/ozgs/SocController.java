@@ -81,7 +81,7 @@ public class SocController {
     }
 
     @RequestMapping(value = "/login", method = RequestMethod.POST)
-    public String loginResult(@ModelAttribute("zamazingo") User user, Model m, HttpSession httpSession) {
+    public String loginResult(@ModelAttribute("something") User user, Model m, HttpSession httpSession) {
 
         List<User> result = null;
 
