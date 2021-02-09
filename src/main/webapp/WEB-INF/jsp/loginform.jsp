@@ -11,7 +11,7 @@
 
     <h3>Please enter your details to log in</h3>
   
-    <form:form action="login" method="post" modelAttribute="zamazingo">
+    <form:form action="login" method="post" modelAttribute="something">
         <table>
             <tr><td>UserName:</td><td><form:input name="isim" path="name" /></td></tr>
             <tr><td>Password:</td><td><form:input type="password" path="password"/></td></tr>
