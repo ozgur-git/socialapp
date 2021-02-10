@@ -73,7 +73,7 @@ public class SocController {
     @RequestMapping(value = "/login")
     public String loginForm(Model m) {
 
-        m.addAttribute("zamazingo", new User());
+        m.addAttribute("something", new User());
 
         m.addAttribute("userString", "Guest");
 
